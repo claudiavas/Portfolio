@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    justify-content: right;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+.logo {
+    flex-grow: 0;
+  }
+  
+.logo img {
+    width: 80px;
+    height: auto;
+  }
+  
+.socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: baseline; /*alineación vertical*/
+    gap: 2rem;
+    height: 50px;
+  }
+  
+.socialIcons img {
+    width: 28px;
+    height: auto;
+  }
+  
+  .socialIcons a {
+    transition: transform 0.3s ease;
+  }
+  
+  .socialIcons a:hover {
+    transform: scale(1.3);
+    }
+  

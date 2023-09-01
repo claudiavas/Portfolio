@@ -1,0 +1,35 @@
+.navbar {
+    flex-shrink: 0;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  
+  .navItem {
+    text-align: center;
+    transition: font-size 0.3s ease, width 0.3s ease, height 0.3s ease;
+  }
+  
+  .navItem a {
+    text-decoration: none;
+    color:#666666;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    transition: font-size 0.3s ease;
+    width: 100px;
+    height: 50px;
+    display: inline-block
+  }
+
+  .navItem a:hover {
+    color: #8000FF;
+    font-size: 1.15rem;
+    width: 100px;
+    height: 50px;
+  }
