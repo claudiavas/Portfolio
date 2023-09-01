@@ -1,11 +1,6 @@
 import Link from 'next/link';
 import styles from '@/styles/header.module.css';
 import { Navbar } from './NavBar';
-import { LinkedinIcon } from './Icons/LinkedinIcon';
-import { GithubIcon } from './Icons/GithubIcon';
-// import GithubIcon from '@/public/github-icon.svg';
-// import LinkedinIcon from '@/public/linkedin-icon.svg';
-
 
 export const Header = () => {
   return (
@@ -14,8 +9,12 @@ export const Header = () => {
         <Navbar/>
       </div>
       <div className={styles.socialIcons}>
-        <Link href="https://linkedin.com/in/claudiavas"><LinkedinIcon/></Link>
-        <Link href="https://github.com/claudiavas"><GithubIcon/></Link>
+        <Link href="https://linkedin.com/in/claudiavas">
+          <img alt="Linkedin" src="./linkedin-icon.png"/>
+        </Link>
+        <Link href="https://github.com/claudiavas">
+          <img alt="Github" src="./github-icon.png"/>
+        </Link>
       </div>
     </header>
   );
