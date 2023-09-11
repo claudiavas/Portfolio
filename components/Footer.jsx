@@ -1,21 +1,25 @@
 import Link from 'next/link';
-// import styles from '@/styles/header.module.css';
+import styles from '@/styles/footer.module.css';
+import { Navbar } from './Navbar';
+// import { GithubIcon } from './github-icon';
+// import { LinkedinIcon } from './linkedin-icon';
 
 
 export const Footer = () => {
   return (
-    // <footer className={styles.footer}>
-    //   <div className={styles.logo}>
-    //     {/* <Link href="/">
-    //         <img src="/logo6.png" alt="Logo" width="80" height="80"/>
-    //     </Link> */}
-    //   </div>
-    //     <Navbar/>
-    //   <div className={styles.socialIcons}>
-    //     <Link href="https://linkedin.com/in/claudiavas"><LinkedinIcon/></Link>
-    //     <Link href="https://github.com/claudiavas"><GithubIcon/></Link>
-    //   </div>
-    // </footer>
-    <p>Footer</p>
+    
+      <footer className="styles.footer">
+  <hr className="styles.footer-line" />
+  <div className="styles.footer-content">
+    <div className="styles.contact-info">
+      <h4>Contacto:</h4>
+      <p>claudia.vasquez@example.com</p>
+      <p>+34 644-469-610</p>
+    </div>
+    <div className="styles.copyright">
+      <p>&copy; 2023 Tu Nombre</p>
+    </div>
+  </div>
+</footer>
   );
 }

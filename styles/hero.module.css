@@ -29,18 +29,7 @@
 
 .text_hero2 {
     background: var(--gradient-heading, linear-gradient(90deg,#00FDEE -2.06%, #8F00FF 100%));
-    /* background: var(--gradient-heading, linear-gradient(90deg,#D3392C -2.06%, #2CC6D3 100%)); */
-    /* background: var(--gradient-heading, linear-gradient(90deg,#29ABD6 -2.06%, #D65429 100%)); */
-    /* background: var(--gradient-heading, linear-gradient(90deg,#0AF5DE -2.06%, #F50A21 100%)); */
-    /* background: var(--gradient-heading, linear-gradient(90deg,#04FBDF -2.06%, #FB0420 100%)); */
-    /* background: var(--gradient-heading, linear-gradient(90deg,#1AE5C1 -2.06%, #E51A3E 100%)); */
-    /* background: var(--gradient-heading, linear-gradient(90deg,#942637 -2.06%, #F388CB 100%)); */
-    /* background: var(--gradient-heading, linear-gradient(90deg,#0776F8 -2.06%, #F88907 100%)); */
-
-
-
-
-    background-clip: text;
+       background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: "Poppins", sans-serif;
