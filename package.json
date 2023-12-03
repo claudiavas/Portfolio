@@ -6,11 +6,16 @@
     "start": "next start"
   },
   "devDependencies": {
-    "@emotion/babel-plugin": "11.10.2"
+    "@emotion/babel-plugin": "11.10.2",
+    "babel-plugin-import": "^1.13.8"
   },
   "dependencies": {
-    "@emotion/react": "11.10.4",
-    "@emotion/styled": "11.10.4",
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.14.18",
+    "@mui/material": "^5.14.18",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
