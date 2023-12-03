@@ -1,20 +1,22 @@
 .navbar {
-    flex-shrink: 0;
-  }
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
   
-  .navList {
+  .navbar__list {
     list-style: none;
     display: flex;
     gap: 2rem;
     justify-content: space-between;
   }
   
-  .navItem {
+  .navbar__item {
     text-align: center;
     transition: font-size 0.3s ease, width 0.3s ease, height 0.3s ease;
   }
   
-  .navItem a {
+  .navbar__link {
     text-decoration: none;
     color:#666666;
     font-family: "Poppins", sans-serif;
@@ -27,7 +29,7 @@
     display: inline-block
   }
 
-  .navItem a:hover {
+  .navbar__link:hover {
     color: #8000FF;
     font-size: 1.15rem;
     width: 100px;

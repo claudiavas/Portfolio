@@ -1,0 +1,21 @@
+.socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: baseline; /*alineación vertical*/
+    gap: 2rem;
+    height: 50px;
+  }
+  
+.socialIcons img {
+    width: 28px;
+    height: auto;
+  }
+  
+  .socialIcons a {
+    transition: transform 0.3s ease;
+  }
+  
+  .socialIcons a:hover {
+    transform: scale(1.3);
+    }

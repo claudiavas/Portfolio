@@ -1,4 +1,5 @@
 import styles from '@/styles/projects.module.css';
+import { ProjectCard } from './ProjectCard';
 
 export const ProjectsComp = () => {
   return (
@@ -9,6 +10,7 @@ export const ProjectsComp = () => {
       </div>
       <div class={styles.gridContainer}>
         <div class={styles.grid}>
+          <ProjectCard />
           <div className={styles.project}>
             <img alt="My Portfolio" src="./projects/my-portfolio.png"/>
             <span className={styles.projectName}>My Portfolio</span>

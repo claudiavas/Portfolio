@@ -1,13 +1,10 @@
-import { Layout } from '@/components/Layout'
 // import { AboutContent } from '@/components/AboutContent' // Cambia por los componentes reales de cada página
 
-export default function About () {
-  return (
-    <Layout>
-      {/* <AboutContent /> */}
-    </Layout>
-  )
-}
+// export default function About () {
+//   return (
+//       {/* <AboutContent /> */}
+//   )
+// }
 
 // Passionate about web development and technology, my goal is to combine my extensive experience in business administration, human resources, and finance with my skills as a Full-Stack Developer.
 // SKILLS
