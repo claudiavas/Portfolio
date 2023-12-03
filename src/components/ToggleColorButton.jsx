@@ -1,17 +1,16 @@
-// ToggleColorButton.js
 import React, { useContext } from 'react';
 import IconButton from '@mui/material/IconButton';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { ColorModeContext } from '../context/ColorModeContext';
-import CustomTheme from '../styles/theme';
+import { CustomTheme } from '../styles/theme';
 import { useTheme } from '@emotion/react';
 
-const ToggleColorButton = () => {
+export default function ToggleColorButton () {
   
   const theme = useTheme(CustomTheme);
-  const { mode, toggleColorMode } = useContext(ColorModeContext);
-  console.log('ToggleColorButton mode: ', mode);
+  // const { mode, toggleColorMode } = useContext(ColorModeContext);
+  // console.log('ToggleColorButton mode: ', mode);
   
   return (
     <IconButton onClick={toggleColorMode}
@@ -33,5 +32,3 @@ const ToggleColorButton = () => {
     </IconButton>
   );
 };
-
-export default ToggleColorButton;

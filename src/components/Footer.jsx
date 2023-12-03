@@ -2,11 +2,10 @@ import React from 'react'
 import { Box, Button, Divider, Stack, Typography } from '@mui/material'
 import CustomTheme from '../styles/theme'
 import { useTheme } from '@emotion/react';
-import { pages } from './ResponsiveAppBar';
-import Whattsapp from './Whattsapp';
-import Email from './Email';
+import { Whattsapp } from './Whattsapp';
+import { Email } from './Email';
 
-export const Footer = () => {
+export default function Footer () {
 
   const theme = useTheme(CustomTheme);
 
@@ -20,8 +19,8 @@ export const Footer = () => {
           <Typography variant="body1" component="p" sx={{ color: theme.palette.text.secondary, fontSize: '1rem', fontWeight: 500 }}>Full Stack Developer</Typography>
         </Box>
         <Box sx={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-          <Whattsapp theme={theme}/>
-          <Email theme={theme}/>
+          <Whattsapp/>
+          <Email/>
         </Box>
         <Box direction="row" justifyContent='center'>
           <Typography variant="body1" component="p" sx={{pb: "0.3rem", color: theme.palette.text.secondary, fontSize: '0.875rem', fontWeight: 700 }}>Follow Me</Typography>

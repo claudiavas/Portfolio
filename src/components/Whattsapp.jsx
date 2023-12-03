@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography, Box } from '@mui/material';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
-export default function Whattsapp ({theme}) {
+export default function Whattsapp () {
   return (
       <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', pb: '0.3rem' }}>
         <WhatsAppIcon sx={{ marginRight: '0.5rem' }} />

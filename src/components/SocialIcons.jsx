@@ -2,7 +2,7 @@ import { IconButton, Tooltip } from '@mui/material'
 import { GitHubIcon, LinkedInIcon } from '@mui/icons-material'
 import React from 'react'
 
-export const SocialIcons = ({theme}) => {
+export default function SocialIcons ({theme}) {
 
     return (
         <>

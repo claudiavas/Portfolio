@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import {CssBaseline, Container, ThemeProvider, createTheme } from "@mui/material";
-import { ColorModeContext, ColorModeProvider } from "../context/ColorModeContext";
-import CustomTheme from "../styles/theme";
+// import { ColorModeContext, ColorModeProvider } from "../context/ColorModeContext";
+import { CustomTheme } from "../styles/theme";
 
 export default function App({ Component, pageProps }) {
   const initialTheme = createTheme({

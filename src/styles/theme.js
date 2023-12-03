@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { createTheme } from '@mui/material/styles';
 import { ColorModeContext } from '../context/ColorModeContext';
 
-const CustomTheme = () => {
+export default function CustomTheme () {
   // const { mode } = useContext(ColorModeContext);
   // console.log("mode en CustomTheme", mode);
 
@@ -57,6 +57,4 @@ const CustomTheme = () => {
   console.log("theme en CustomTheme", theme);
 
   return theme;
-};
-
-export default CustomTheme;
+}

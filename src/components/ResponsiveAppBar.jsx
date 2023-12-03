@@ -2,8 +2,8 @@ import React from 'react';
 import { AppBar, Box, Toolbar, IconButton, Container, Button, Menu, MenuItem, Typography} from '@mui/material';
 import { useTheme } from '@mui/system';
 import MenuIcon from '@mui/icons-material/Menu';
-import ToggleColorButton from './ToggleColorButton';
-import CustomTheme from '../styles/theme';
+import { ToggleColorButton } from './ToggleColorButton';
+import { CustomTheme } from '../styles/theme';
 import { SocialIcons } from './SocialIcons';
 
 export const pages = ['Home', 'About Me', 'Tech Stack', 'Projects', 'Contact'];
@@ -121,7 +121,7 @@ export default function ResponsiveAppBar() {
               gap: "0.8rem",
               ml: 4
             }}>
-              <SocialIcons theme={{theme}}/>
+              <SocialIcons/>
             </Box>
 
             <Box sx={{

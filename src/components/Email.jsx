@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography, Box } from '@mui/material';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
-export default function Email ({theme}) {
+export default function Email () {
   return (
       <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', pb: '0.3rem' }}>
         <MailOutlineIcon sx={{ marginRight: '0.5rem' }} />
