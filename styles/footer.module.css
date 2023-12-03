@@ -1,0 +1,47 @@
+/* Estilo base del footer */
+.footer {
+  margin-top: 200rem;
+  text-align: center;
+  padding: 200px 0
+}
+
+/* Línea horizontal */
+.footer-line {
+  width: 30%;
+  border: 20px solid #5d0909; /* Color de la línea */
+}
+
+/* Contenido del footer */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  max-width: 1200px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/* Datos de contacto */
+.contact-info {
+  text-align: left;
+}
+
+.contact-info h4 {
+  font-size: 1.2rem;
+  color: #333; /* Color del texto */
+}
+
+.contact-info p {
+  margin: 5px 0;
+  color: #666; /* Color del texto */
+}
+
+/* Copyright */
+.copyright {
+  text-align: right;
+}
+
+.copyright p {
+  font-size: 1rem;
+  color: #333; /* Color del texto */
+}
